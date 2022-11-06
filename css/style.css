@@ -1,0 +1,106 @@
+
+header {
+    width: 12rem;
+    height: 100vh;
+    position: absolute;
+    padding: 0rem 7rem;
+    background-color: white;
+}
+nav {
+    max-width: fit-content;
+    height: 100%;
+}
+nav img {
+    width: 12rem;
+    justify-self: flex-start;
+}
+nav li, nav a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1rem;
+    line-height: 2.4rem;
+}
+nav li {
+    max-width: max-content;
+}
+#search {
+    margin-top: 2rem;
+}
+.topNav a {
+    font-size: 1.5rem;
+    color: gray;
+}
+.navItem a {
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: gray;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   CONTENT                                  */
+/* -------------------------------------------------------------------------- */
+.mainContent {
+    width: 100%;
+    margin-top: 3rem;
+}
+.topLeftContent {
+    width: 59rem;
+}
+.topLeftContent h2 {
+   font-size: 3.7rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   line-height: .8; 
+}
+.topLeftContent h4 {
+    font-size: 1.4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topRightItems {
+    width: 33rem;
+    margin-left: 0;
+    margin-right: 3rem;
+}
+.rightItems h2 {
+    font-size: 2.12rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rightItems p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.border {
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 5px;
+}
+.topSection {
+    margin-bottom: 1rem;
+    margin-left: 17rem;
+}
+.latestHeader h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    width: 78rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    margin-bottom: 1rem;
+}
+.lowerContent {
+    width: 78rem;
+}
+.lowerItems h2 {
+    width: 29rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.lowerItems P {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    width: 29rem;
+    margin-left: 4rem;
+
+}
+.lowerItems img {
+    margin-left: 4rem;
+}
